@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Naruto Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <H1>Score: <span id="score">0</span> &nbsp; Enemy Passed: <span id="enemies">0</span></H1>
+        <img src="assets/naruto_bunshin.gif" id="clone" alt=""><br> 
+        <button id="start" onclick="start()">Start Game</button>
+        <button id="restart" style="display: none;" onclick="restart()">Restart Game</button>
+        <p id="para">
+            Instructions: Use the up and down arrow keys to move. Throw a kunai using any key. <br>
+            You automatically loose if an enemy hits you or you let 5 of them pass. <br>
+            You'll have a special power up once you reach 10 points. <br>
+            You'll have faster rasen-shurikens and your speed and kcm2 mode which saves you more from enemies. <br>
+            But the enemies become faster too.....!
+        </p>
+    </center>    
+    <div id="maindiv">
+        <img src="assets/littlenaruto.gif" id="naruto" alt="">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+body{
+    background-image: url('assets/finalValley.jpg');
+}
+
+h1{
+    font-family: cursive;
+}
+#clone{
+    position: relative;
+    height: 100px;
+    margin-top: 10%;
+}
+#start{
+    width: 7%;
+    height: 40px;
+    padding: 0px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    font-family: cursive;
+    font-size: 1.2vw;
+    color: white;
+    cursor: pointer;
+}
+#restart{
+    width: 17%;
+    height: 40px;
+    margin-top: 10%;
+    padding: 0px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    font-family: cursive;
+    font-size: 1.2vw;
+    color: white;
+    cursor: pointer;
+}
+#para{
+    margin-top: 5px;
+    font-family: cursive;
+    font-size: 1.2vw;
+}
+
+#naruto{
+    width: 135px;
+    height: 150px;
+    position: absolute;
+    left: 20px;
+    top: 180px;
+}
+
+.shuriken{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+
+.ninja{
+    width: 70px;
+    height: 100px;
+    position: absolute;
+}
